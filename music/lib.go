@@ -26,19 +26,19 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	"github.com/budkin/gmusic"
+	"github.com/mjibson/gmusic"
 )
 
 type BTrack struct {
 	Artist         string
-	DiscNumber     uint8
-	TrackNumber    uint32
+	DiscNumber     float64
+	TrackNumber    float64
 	DurationMillis string
 	EstimatedSize  string
 	ID             string
-	PlayCount      uint32
+	PlayCount      float64
 	Title          string
-	Year           uint32
+	Year           float64
 }
 
 func RefreshLibrary(db *bolt.DB, gm *gmusic.GMusic) error {

@@ -28,7 +28,7 @@ import (
 	// "github.com/gdamore/tcell"
 	runewidth "github.com/mattn/go-runewidth"
 
-	"github.com/budkin/jam/music"
+	"github.com/grender/jam/music"
 )
 
 func (app *App) makeSongLine(track *music.BTrack) string {

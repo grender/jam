@@ -23,7 +23,7 @@ WARN_COLOR=\033[33;01m
 
 MAKE_COLOR=\033[33;01m%-20s\033[0m
 
-MAIN = github.com/budkin/jam
+MAIN = github.com/grender/jam
 EXE = $(shell ls jam-*_*)
 
 PACKAGE=$(APP)-$(VERSION)
@@ -84,4 +84,4 @@ coverage: ## Launch code coverage
 
 gox: ## Make all binaries
 	@echo -e "$(OK_COLOR)[$(APP)] Create binaries $(NO_COLOR)"
-	$(GOX) $(GOX_ARGS) github.com/budkin/jam
+	$(GOX) $(GOX_ARGS) github.com/grender/jam

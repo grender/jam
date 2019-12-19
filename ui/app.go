@@ -26,18 +26,20 @@ import (
 	"log"
 	"math/rand"
 	"sort"
+
 	// "strconv"
 	"strings"
 
 	// "time"
 
 	"github.com/boltdb/bolt"
-	"github.com/budkin/gmusic"
 	"github.com/gdamore/tcell"
+	"github.com/mjibson/gmusic"
+
 	// runewidth "github.com/mattn/go-runewidth"
 
-	"github.com/budkin/jam/lastfm"
-	"github.com/budkin/jam/music"
+	"github.com/grender/jam/lastfm"
+	"github.com/grender/jam/music"
 )
 
 const (

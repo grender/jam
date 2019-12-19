@@ -29,7 +29,7 @@ import (
 
 	runewidth "github.com/mattn/go-runewidth"
 
-	"github.com/budkin/jam/music"
+	"github.com/grender/jam/music"
 )
 
 var (

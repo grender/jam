@@ -28,7 +28,7 @@ import (
 
 	"github.com/korandiz/mpa"
 
-	"github.com/budkin/jam/music"
+	"github.com/grender/jam/music"
 )
 
 // OutputStream define an output stream

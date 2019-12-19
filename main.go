@@ -27,13 +27,13 @@ import (
 	"os"
 
 	"github.com/boltdb/bolt"
-	"github.com/budkin/gmusic"
+	"github.com/mjibson/gmusic"
 
-	"github.com/budkin/jam/auth"
-	"github.com/budkin/jam/lastfm"
-	"github.com/budkin/jam/storage"
-	"github.com/budkin/jam/ui"
-	"github.com/budkin/jam/version"
+	"github.com/grender/jam/auth"
+	"github.com/grender/jam/lastfm"
+	"github.com/grender/jam/storage"
+	"github.com/grender/jam/ui"
+	"github.com/grender/jam/version"
 )
 
 const (
